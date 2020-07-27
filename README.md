@@ -22,3 +22,25 @@ Enter developer mode, locate and touch USB debugging items.
 Touch OK all of items
 <br>
 <img src="https://user-images.githubusercontent.com/53033449/88523937-b1049b00-d033-11ea-9395-62dd8f57da96.jpg" width="30%"><img src="https://user-images.githubusercontent.com/53033449/88523943-b235c800-d033-11ea-8150-4bd2ac92c087.jpg" width="30%">
+
+<br>
+
+[ADB Download](https://developer.android.com/studio/releases/platform-tools?hl=ko, "ADB Download link")
+
+
+<img src="https://user-images.githubusercontent.com/53033449/88534891-eadd9d80-d043-11ea-92c2-823a3f4358ce.jpg"><br><br><br>
+
+Unzip the downloaded file and open the PowerShell with Shift + Right-click.
+<img src="https://user-images.githubusercontent.com/53033449/88565240-45402380-d06f-11ea-916b-74b77da2c494.jpg"><br><br>
+
+Enter the command below to make your phone's camera silent!
+```
+.\adb.exe shell settings put system csc_pref_camera_forced_shuttersound_key 0
+```
+
+If you want it back, enter below command.
+```
+.\adb.exe shell settings put system csc_pref_camera_forced_shuttersound_key 1
+```
+
+ ## *if your phone wasn't in silent mode, shutter sound will not remove. Only silent mode can remove shutter sounds*
