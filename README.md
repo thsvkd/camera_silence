@@ -4,8 +4,7 @@ explains how to remove the camera shutter sound of a cell phone without any app.
 ## install
 Connect your phone to the computer via USB and allow access.
 
-<img src="https://user-images.githubusercontent.com/53033449/88524582-7f400400-d034-11ea-9875-c621bc621ca6.jpg" width="30%">
-<img src="https://user-images.githubusercontent.com/53033449/88482338-90890200-cf9b-11ea-9949-bc970965617f.jpg" width="30%"><br><br>
+<img src="https://user-images.githubusercontent.com/53033449/88524582-7f400400-d034-11ea-9875-c621bc621ca6.jpg" width="30%"><img src="https://user-images.githubusercontent.com/53033449/88482338-90890200-cf9b-11ea-9949-bc970965617f.jpg" width="30%"><br><br>
 Go to the mobile phone information tab and go to the software information tab.
 <br>
 
