@@ -44,3 +44,9 @@ If you want it back, enter below command.
 ```
 
  ## *if your phone wasn't in silent mode, shutter sound will not remove. Only silent mode can remove shutter sounds*
+ 
+ ## **error collection : error: more than one device/emulator
+ ```
+ ./adb kill-server
+ ./adb device
+ ```
