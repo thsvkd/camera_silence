@@ -34,13 +34,24 @@ Unzip the downloaded file and open the PowerShell with Shift + Right-click.
 <img src="https://user-images.githubusercontent.com/53033449/88565240-45402380-d06f-11ea-916b-74b77da2c494.jpg"><br><br>
 
 Enter the command below to make your phone's camera silent!
+- window
 ```
 .\adb.exe shell settings put system csc_pref_camera_forced_shuttersound_key 0
 ```
+- mac
+```
+adb shell settings put system csc_pref_camera_forced_shuttersound_key 0
+```
 
+- window
 If you want it back, enter below command.
 ```
 .\adb.exe shell settings put system csc_pref_camera_forced_shuttersound_key 1
+```
+
+- mac
+```
+adb shell settings put system csc_pref_camera_forced_shuttersound_key 1
 ```
 
  ## *if your phone wasn't in silent mode, shutter sound will not remove. Only silent mode can remove shutter sounds*
