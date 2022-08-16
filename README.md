@@ -43,12 +43,11 @@ Enter the command below to make your phone's camera silent!
 adb shell settings put system csc_pref_camera_forced_shuttersound_key 0
 ```
 
-- window
 If you want it back, enter below command.
+- window
 ```
 .\adb.exe shell settings put system csc_pref_camera_forced_shuttersound_key 1
 ```
-
 - mac
 ```
 adb shell settings put system csc_pref_camera_forced_shuttersound_key 1
